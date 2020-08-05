@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Form Assignment</title>
+        <style>
+            .input{width: 100%; margin-bottom:10px; padding-bottom:10px;}
+            #submit{background-color: #7bbf6f;}
+            #form{background-color: #7eb3f3; 
+            border-radius:3px;
+            width: 800px;
+            margin:auto;
+            margin-top:40px;
+            display: block;}
+            form{padding: 20px;}
+            body{font-family: helvetica};
+            
+        </style>
+    </head>
+    <body>
+        <div id="form">
+            <form>
+                <label for='firstname'>First Name:</label><br>
+                <input type="text" class="input"id='firstname' placeholder="Your name..."><br>
+                <label for='lastname'>Last Name:</label><br>
+                <input type="text" class="input" id="lastname" placeholder="Your last name..."><br>
+                <label for="country">Country:</label><br>
+                <select class="input" id="country" name="country">
+                    <option value="Ghana">Ghana</option>
+                    <option value="Togo">Togo</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Canada">Canada</option>
+                </select><br>
+                <label for="subject">Subject:</label><br>
+                <textarea class="input" id="subject" rows="10" cols="30" placeholder="Write something..."></textarea>
+                <input type="submit" id="submit">
+            </form>
+        </div>
+    </body>
+</html>
